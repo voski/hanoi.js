@@ -1,0 +1,44 @@
+.tower {
+  display: inline-block;
+  background-color: #ccc;
+  height: 200px;
+  width: 30%;
+  margin: 15px;
+  border-bottom: 5px solid black;
+}
+
+.box {
+  background-color: cornflowerblue;
+  height: 250px;
+  width: 80%;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+  }
+
+.group:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.disk {
+  margin: 0 auto;
+}
+.disk_0 {
+  width: 90%;
+  height: 15px;
+  background-color: yellow;
+}
+
+.disk_1 {
+  width: 70%;
+  height: 15px;
+  background-color: red;
+}
+
+.disk_2 {
+  width: 50%;
+  height: 15px;
+  background-color: purple;
+}
